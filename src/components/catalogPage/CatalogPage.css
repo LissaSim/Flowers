@@ -1,0 +1,42 @@
+.catalog__text{
+    color: black;
+    font-family: 'Beau Rivage', sans-serif;
+    font-size: 45px;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.catalog{
+    width: 65%;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+}
+.catalog__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+}
+.catalog__card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 15px 5px;
+}
+.catalog__card-title {
+    font-family: 'Antic', sans-serif;
+    font-weight: 100;
+    margin: 3px;
+    color: black;
+}
+.catalog__card-text{
+    padding: 5px;
+    font-family: 'Antic', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.catalog__card-title em{
+    color: #FF6B6B;
+    font-family: 'Antic', sans-serif;
+}

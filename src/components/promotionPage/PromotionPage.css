@@ -1,0 +1,71 @@
+.promotion__wrapper{
+    width: 65%;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+}
+
+.promotion__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    margin: 0 auto;
+}
+.promotion__card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 15px 5px;
+    position: relative;
+}
+.round{
+    width: 50px;
+    height: 50px;
+    background-color: #FF6B6B;
+    border-radius: 50%;
+    position: absolute; /* Абсолютное позиционирование */
+    top: 5px; /* Расстояние от верхнего края карточки */
+    right: 5px; /* Расстояние от правого края карточки */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round h4{
+    color: white;
+    font-family: 'Antic', sans-serif;
+    font-weight: 100;
+}
+
+.promotion__card-title{
+    font-family: 'Antic', sans-serif;
+    font-weight: 100;
+    margin: 3px;
+    color: black;
+
+}
+.discount__price{
+    font-family: 'Antic', sans-serif;
+    font-weight: 100;
+    margin: 3px;
+    color: #FF6B6B;
+}
+.discount__price em{
+    color: black;
+}
+.price {
+    color: black;
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+.promotion__card-text{
+    padding: 5px;
+    font-family: 'Antic', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.discount{
+    display: flex;
+    flex-direction: column;
+}

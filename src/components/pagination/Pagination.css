@@ -1,0 +1,39 @@
+.pagination{
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    display: flex;
+    margin: 1.5em;
+}
+.pagination__btn {
+    border: none;
+    cursor: pointer;
+    width: 13px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.pagination__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.pagination__list-item{
+    font-family: 'Antic', sans-serif;
+    font-size: 20px;
+}
+.pagination__list-link{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.pagination__list-link.active{
+    font-size: 25px;
+    font-weight: bold;
+}

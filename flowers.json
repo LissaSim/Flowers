@@ -1,0 +1,129 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "title": "Bouquet of spray roses",
+      "size": "30 x 40",
+      "price": 88,
+      "discountPrice": 75,
+      "img": "/img/pink_roses.png",
+      "value": "Roses"
+    },
+    {
+      "id": 2,
+      "title": "Bouquet of peonies",
+      "size": "35 x 40",
+      "price": 80,
+      "img": "/img/peonies.png",
+      "value": "Peonies"
+    },
+    {
+      "id": 3,
+      "title": "Composition with roses",
+      "size": "40 x 25",
+      "price": 83,
+      "discountPrice": 71,
+      "img": "/img/Frame 4.png",
+      "value": "Roses"
+    },
+    {
+      "id": 4,
+      "title": "Bouquet of tulips № 1",
+      "size": "35 x 40",
+      "price": 80,
+      "img": "/img/Frame 4 (1).png",
+      "value": "Tulips"
+    },
+    {
+      "id": 5,
+      "title": "Composition № 1",
+      "size": "20 x 25",
+      "price": 55,
+      "img": "/img/Frame 4 (2).png",
+      "value": "Composition"
+    },
+    {
+      "id": 6,
+      "title": "Composition № 2",
+      "size": "25 x 30",
+      "price": 60,
+      "img": "/img/Frame 4 (4).png",
+      "value": "Composition"
+    },
+    {
+      "id": 7,
+      "title": "Bouquet of white roses",
+      "size": "30 x 35",
+      "price": 78,
+      "discountPrice": 66,
+      "img": "/img/Frame 4 (5).png",
+      "value": "Roses"
+    },
+    {
+      "id": 8,
+      "title": "Bouquet of gypsophila",
+      "size": "35 x 40",
+      "price": 75,
+      "img": "/img/Frame 4 (6).png",
+      "value": "Composition"
+    },
+    {
+      "id": 9,
+      "title": "Composition № 3",
+      "size": "25 x 30",
+      "price": 60,
+      "img": "/img/Frame 4 (7).png",
+      "value": "Composition"
+    },
+    {
+      "id": 10,
+      "title": "Bouquet of red roses",
+      "size": "40 x 35",
+      "price": 78,
+      "discountPrice": 66,
+      "img": "/img/Frame 4 (8).png",
+      "value": "Roses"
+    },
+    {
+      "id": 11,
+      "title": "Bouquet of tulips № 2",
+      "size": "25 x 20",
+      "price": 35,
+      "img": "/img/Frame 4 (9).png",
+      "value": "Tulips"
+    },
+    {
+      "id": 12,
+      "title": "Composition № 4",
+      "size": "30 x 20",
+      "price": 30,
+      "img": "/img/Frame 4 (10).png",
+      "value": "Composition"
+    },
+    {
+      "id": 13,
+      "title": "Composition № 5",
+      "size": "40 x 35",
+      "price": 82,
+      "img": "/img/Frame 4 (11).png",
+      "value": "Composition"
+    },
+    {
+      "id": 14,
+      "title": "Bouquet of tulips № 3",
+      "size": "35 x 30",
+      "price": 71,
+      "img": "/img/tulips.png",
+      "value": "Tulips"
+    },
+    {
+      "id": 15,
+      "title": "Bouquet of pink roses",
+      "size": "35 x 30",
+      "price": 70,
+      "discountPrice": 60,
+      "img": "/img/roses.png",
+      "value": "Roses"
+    }
+  ]
+}

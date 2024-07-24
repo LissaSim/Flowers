@@ -1,0 +1,43 @@
+
+.sidebar {
+    width: 250px; /* Фиксированная ширина для Sidebar */
+    background-color: #D4F2DB; /* Цвет фона для Sidebar */
+    box-sizing: border-box;
+    position: fixed; /* Закрепляем сайдбар */
+    top: 0; /* Отступ сверху */
+    left: 0; /* Прижимаем к левому краю */
+    height: calc(100vh - 10px)
+}
+
+.sidebar img {
+    padding: 20px;
+    margin: 0 78px;
+}
+
+.sidebar__list-button {
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.sidebar__list {
+    list-style: none;
+    text-align: center;
+}
+
+/*active*/
+a {
+    color: black;
+    display: inline-block;
+    padding: 3px;
+    text-decoration: none;
+    font-family: 'Antic', sans-serif;
+    margin: 0 10px 10px 0;
+}
+
+.sidebar__list-item:hover {
+    transform: scale(1.2);
+    transition: all 0.4s ease;
+}

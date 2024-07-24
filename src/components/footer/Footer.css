@@ -1,0 +1,49 @@
+.footer {
+    width: 100%; /* Соответствует ширине .homepage */
+    margin: 0;
+    padding: 0;
+    background-color: #D4F2DB; /* Цвет фона для Footer */
+    text-align: center;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    /*height: 40%;*/
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__logo img {
+    width: 100px;
+}
+.logo{
+    text-align: center;
+    margin-left: 8%;
+}
+
+.footer__icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+.footer__icons{
+    margin-top: 10px;
+}
+
+.footer__contact {
+    font-family: 'Antic', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.footer__number{
+    color: #FF6B6B;
+    font-family: 'Antic', sans-serif;
+    font-weight: 100;
+    margin: 3px;
+    margin-top: 10px;
+}
